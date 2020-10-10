@@ -1,0 +1,105 @@
+@import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+.nanumpenscript * {
+  font-family: 'Nanum Pen Script', cursive; }
+
+@font-face {
+  font-family: 'NanumBarunpen';
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumBarunpen.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+img {
+  border: 0; }
+
+a {
+  text-decoration: none;
+  list-style: none;
+  color: #000; }
+
+.hidden {
+  display: none; }
+
+button {
+  background: none;
+  border: 0;
+  font-family: 'NanumBarunpen'; }
+
+body {
+  background: url("../images/bg03.jpg") center center;
+  background-size: cover;
+  height: 100%; }
+
+.cell_wrap {
+  display: table;
+  text-align: center;
+  width: 80%;
+  margin: 0 10%;
+  height: 100vh; }
+
+.title {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 28px 32px;
+  border: 3px solid #fff; }
+  .title .b_title {
+    font-weight: bold;
+    font-size: 28px;
+    letter-spacing: -0.5px;
+    margin-bottom: 10px; }
+
+.cell {
+  display: table-cell;
+  vertical-align: middle; }
+
+.start {
+  text-align: center;
+  margin-top: 30px; }
+  .start li {
+    display: inline-block;
+    margin: 0 12px; }
+    .start li:hover {
+      opacity: 0.5; }
+    .start li a {
+      color: aquamarine;
+      font-size: 17px;
+      font-family: 'NanumBarunpen'; }
+
+button {
+  cursor: pointer;
+  color: #999;
+  font-size: 16px; }
+
+.wrap {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 36px 40px;
+  border: 2px solid #333;
+  transition: all ease 1s; }
+
+.text {
+  color: #ccc;
+  font-size: 18px;
+  line-height: 27px; }
+  .text span {
+    opacity: 0.5;
+    margin-top: 30px;
+    display: block;
+    font-size: 16px; }
+  .text b {
+    font-weight: normal; }
+
+.box {
+  margin-top: 50px;
+  opacity: 0.7; }
+  .box li {
+    display: inline-block;
+    margin: 0 8px; }
+
+.answer:hover {
+  transition: all ease 1s;
+  transform: rotate(15deg); }
+
+/*# sourceMappingURL=main.css.map */
