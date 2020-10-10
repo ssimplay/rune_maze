@@ -29,7 +29,7 @@ button {
   font-family: 'NanumBarunpen'; }
 
 body {
-  background: url("../images/bg03.jpg") center center;
+  background: url("../images/bg03.jpg") no-repeat center center;
   background-size: cover;
   height: 100%; }
 
@@ -64,14 +64,11 @@ body {
     .start li:hover {
       opacity: 0.5; }
     .start li a {
-      color: aquamarine;
+      color: #999;
       font-size: 17px;
       font-family: 'NanumBarunpen'; }
-
-button {
-  cursor: pointer;
-  color: #999;
-  font-size: 16px; }
+    .start li .start_a {
+      color: aquamarine; }
 
 .wrap {
   background: rgba(0, 0, 0, 0.8);
@@ -101,5 +98,17 @@ button {
 .answer:hover {
   transition: all ease 1s;
   transform: rotate(15deg); }
+
+#mask {
+  border: 15px solid cyan; }
+
+.back {
+  display: block;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'NanumBarunpen';
+  margin-top: 30px; }
+  .back:hover {
+    opacity: 0.5; }
 
 /*# sourceMappingURL=main.css.map */
