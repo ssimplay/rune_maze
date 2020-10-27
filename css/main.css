@@ -95,6 +95,15 @@ body {
     display: inline-block;
     margin: 0 8px; }
 
+form {
+  margin: 12px 0; }
+  form input {
+    height: 22px; }
+
+.sub_btn {
+  font-size: 14px;
+  padding-bottom: 6px; }
+
 .answer:hover {
   transition: all ease 1s;
   transform: rotate(15deg); }

@@ -13,6 +13,15 @@
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <!--[endif]-->  
    
+   <script>
+function doSomething() {
+    // alert(document.forms[0].elements['name'].value);
+    var url = document.forms[0].elements['name'].value;
+    window.location = url;
+    return false;
+}
+</script>
+   
     </head>
     
     <body>
@@ -28,7 +37,10 @@
                   </p>
              </div>
               
-              
+              <form onsubmit="return doSomething();" class="my-form">
+               <input type="text" name="name">
+               <input type="submit" value="정답입력" class="sub_btn">
+             </form>
               
            </div>
            
